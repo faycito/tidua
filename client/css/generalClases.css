@@ -1,0 +1,37 @@
+.active {
+    background: #4CAF50;
+}
+
+.nav-bar{
+    background-color: #1976D2;
+    padding: 20px 50px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'lato-light';
+}
+
+.full-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    min-height: 400px;
+
+}
+
+.container{
+    justify-self: center;
+    align-self: center;
+}
+
+.container table{
+    margin: 100px 0px 0 0;
+}
+
+.btn-cSesion{
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'lato-light';
+    float: right;
+    /* line-height: 27.5px; */
+    border: 1px solid black;
+    padding: 10px;
+}

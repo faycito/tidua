@@ -1,0 +1,53 @@
+body{
+    background: url('../img/bg-lg.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 70vh;
+
+}
+
+.lg-content input{
+    display: block;
+    
+    margin: 10px 0;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+.lg-content input[type="text"],
+.lg-content input[type="password"]{
+    width: 300px;
+    padding: 15px;
+}
+
+.lg-content input[type="submit"]{
+    margin: auto;
+    padding: 10px;
+}
+.lg-content{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(36, 46, 56, .7);
+    box-shadow: 0 0 10px black;
+}
+
+p{
+    font-family: 'lato-regular';
+    color: white;
+    display: inline;
+}
+select{
+    font-size: 12px;
+    height: 30px;
+}
